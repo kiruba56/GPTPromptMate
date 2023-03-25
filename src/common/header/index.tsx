@@ -4,11 +4,12 @@ import { create_path, explore_path } from "../../utils/config/path";
 
 const Header = () => {
     return (
-        <div className="w-full flex flex-row justify-between items-center p-5 pb-3 border-b border-gray px-10">
+        <div className="sticky top-0 bg-bg-light w-full flex flex-row justify-between items-center p-5 pb-3 border-b border-gray px-10">
             <img src={require('../../assets/logo/logo.png')} className="w-7 h-7" />
             <Tabs />
             <Profile />
         </div>
+
     );
 };  
 

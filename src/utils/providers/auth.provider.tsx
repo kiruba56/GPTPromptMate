@@ -45,7 +45,7 @@ function AuthProvider({children}:{children:React.ReactNode}) {
     return (
       <AuthContext.Provider value={value}>
       
-          <div className={`w-full h-full bg-bg-light`}>
+          <div className={`w-full h-full bg-bg-light overflow-scroll`}>
               <Header />
               {children}
           </div>

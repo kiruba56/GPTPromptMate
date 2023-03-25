@@ -23,3 +23,14 @@ code {
 #root {
   @apply h-full;
 }
+
+
+.top_bar_cateogory::-webkit-scrollbar {
+  display: none;
+}
+
+/* For IE, Edge and Firefox */
+.top_bar_cateogory {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
